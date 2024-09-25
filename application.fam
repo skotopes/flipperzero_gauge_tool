@@ -1,0 +1,13 @@
+App(
+    appid="gauge_tool",
+    name="Gauge Tool",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="gauge_tool_app",
+    stack_size=2 * 1024,
+    fap_category="Tools",
+    fap_version="0.1",
+    fap_icon="gauge_tool.png",
+    fap_description="Gauge Tool",
+    fap_author="Aku",
+    fap_weburl="https://github.com/skotopes/flipperzero_gauge_tool",
+)
