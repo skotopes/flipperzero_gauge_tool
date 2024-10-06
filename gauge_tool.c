@@ -10,10 +10,10 @@
 #include "bq27220.h"
 
 typedef struct {
-    BatteryStatus battery_status;
+    Bq27220BatteryStatus battery_status;
     bool battery_status_good;
 
-    OperationStatus operation_status;
+    Bq27220OperationStatus operation_status;
     bool operation_status_good;
 
     FuriString* buffer;
